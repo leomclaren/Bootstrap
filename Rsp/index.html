@@ -1,0 +1,1145 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="/css/Style.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="icon" type="image/x-icon" href="Assests/LOGO.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <style>
+        .carousel-inner .carousel-item-next,
+        .carousel-inner .carousel-item-prev,
+        .carousel-inner .carousel-item.active {
+            display: flex;
+        }
+
+        .carousel-inner .carousel-item-right.active,
+        .carousel-inner .carousel-item-next {
+            transform: translateX(50%);
+        }
+
+        .carousel-inner .carousel-item-left.active,
+        .carousel-inner .carousel-item-prev {
+            transform: translateX(-50%);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-black h-100">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation" style="background-color: #6EC1E4;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-white  active" aria-current="page" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dissertation Writing
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider ">
+                            </li>
+                            <li><a class="dropdown-item t" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Editing
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider ">
+                            </li>
+                            <li><a class="dropdown-item t" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Other Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider ">
+                            </li>
+                            <li><a class="dropdown-item t" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white  active" aria-current="page" href="#">Reviews</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white  active" aria-current="page" href="#">Topics</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white  active" aria-current="page" href="#">Blog</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex " role="search">
+                    <button class="btn btn-info text-white" type="submit">Order Now</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar -->
+
+
+    <!-- Herosection -->
+    <div class="card  rounded-0 mb-3 bg-black bg-img ">
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-sm-6 mb-3 mb-sm-0">
+
+                    <div class="card-body text-white" style="border: none;">
+                        <h5 class="card-title text-white heading">Are You Seeking?</h5>
+                        <p class="card-text text-white display-4 text-lg heading">Dissertation Proposal Writing Service
+                        </p>
+                        <ul class="list-unstyled">
+                            <div class="d-flex">
+                                <i class="bi bi-check-lg text-info"></i>
+                                <li class="heading mx-2">Custom dissertation proposal</li>
+                            </div>
+                            <div class="d-flex">
+                                <i class="bi bi-check-lg text-info"></i>
+                                <li class="heading mx-2">Online dissertation proposal</li>
+                            </div>
+                            <div class="d-flex">
+                                <i class="bi bi-check-lg text-info"></i>
+                                <li class="heading mx-2">Cheap and affordable dissertation proposal writing</li>
+                            </div>
+
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+
+                    <div class="card-body text-white" style="border: none;">
+                        <h5 class="text-center">Prices From<h5>
+                                <p class="text-center text-white display-4 text-lg heading"><sub>£</sub>60</p>
+                                <p class="card-text text-center text-white text-lg heading"> Standard 2:2 | 1000 words |
+                                    10 days
+                                    delivery</p>
+                                <div class="text-center " style="background-color: #6EC1E4;padding: 10px;">
+                                    Order Now
+                                </div>
+                                <p class="card-text text-center text-white text-lg my-3 heading "> Delivered on-time or
+                                    your
+                                    money back</p>
+
+                                <div class="text-center heading" style="background-color: #6EC1E4;padding: 10px;">
+                                    Start a Live Chat
+                                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Herosection -->
+
+
+    <!-- Form -->
+    <div class="container" style="margin-top: -50px;">
+        <div class="card">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card" style="border: none;">
+                        <h5 class="card-title heading p-3">Get Your Proposal Done In Just <span
+                                style="color: #6EC1E4;">£98</span>
+                            £49!</h5>
+                        <div class="card-body">
+                            <!-- Gutter g-1 -->
+                            <div class="row g-1">
+                                <div class="col">
+                                    <!-- Name input -->
+                                    <div data-mdb-input-init class="form-outline">
+                                        <input type="text" placeholder="Enter Full Name" id="form9Example1"
+                                            class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <!-- Email input -->
+                                    <div data-mdb-input-init class="form-outline">
+                                        <input type="email" placeholder="Enter Email Address" id="form9Example2"
+                                            class="form-control" />
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <!-- Gutter g-5 -->
+                            <div class="row g-1 my-4 ">
+                                <div class="col">
+                                    <!-- Name input -->
+                                    <div data-mdb-input-init class="form-outline">
+                                        <input type="text" placeholder="Enter Phone number" id="form9Example3"
+                                            class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <!-- Email input -->
+                                    <div data-mdb-input-init class="form-outline">
+                                        <input type="email" placeholder="Dissertation" id="form9Example4"
+                                            class="form-control" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <!-- Email input -->
+                                <div data-mdb-input-init class="form-outline">
+                                    <input type="email" placeholder="Message" id="form9Example4" class="form-control" />
+                                </div>
+                                <center>
+                                    <div class="container my-3">
+                                        <button class="btn btn-info text-white btn_paper">Submit</button>
+                                    </div>
+                                </center>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card" style="border: none;">
+                        <div class="card-body">
+
+                            <div class="mainDic">
+                                <div class="offer-div">
+                                    <p class="text-center DT">50% OFF</p>
+                                </div>
+                                <p class="text-center text-white  heading my-5">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit.</p>
+                                <div class="dicchild">
+                                    <Center>
+                                        <button class="btn btn-info btnnn my-4" type="button">Button</button>
+                                    </Center>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Form -->
+
+
+    <!-- Services card -->
+    <div class="container my-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card card_border">
+                    <img src="./Assests/Link.png" class="card-img-top image_top my-2" alt="icon_img">
+                    <div class="card-body">
+                        <h5 class="card-title text-center heading">100% Data Confidentiality</h5>
+                        <p class="card-text text-center heading">
+                            Your data is safe from any unethical and illegal
+                            act and never resold to third parties in any case
+                            scenario from our dissertation proposal writing
+                            .</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card_border">
+                    <img src="./Assests/SVG.png" class="card-img-top image_top my-2" alt="icon_img">
+                    <div class="card-body">
+                        <h5 class="card-title text-center heading">UK Dissertation Specialists</h5>
+                        <p class="card-text text-center heading">Top UK dissertation proposal experts are
+                            gathered with +8years of experience and PhD
+                            qualification working on your proposals for
+                            dissertation..</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card_border">
+                    <img src="./Assests/SVG (1).png" class="card-img-top image_top my-2" alt="icon_img">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">100% Plagiarism-Free</h5>
+                        <p class="card-text text-center">Guarantee of 100% original content with 0%
+                            plagiarism rate with a FREE Turnitin report for
+                            assurance</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services card -->
+
+
+    <!-- Dissertation section -->
+
+    <div class="container my-5">
+        <h2 class="card-title text-center heading">
+            Dissertation Proposal Service For
+        </h2>
+
+        <h2 class="card-title text-center heading ">
+            Dissertation Blues!
+        </h2>
+
+        <div class="line"></div>
+
+        <div class="row my-5">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card border-0 my-5">
+                    <div class="card-body">
+                        <h5 class="card-title heading slogen">Dissertation Proposal UK</h5>
+                        <div class="line2"></div>
+                        <p class="card-text">
+                            From UK’s top dissertation proposal service with specified research
+                            prospect and qualified dissertation proposal writers.<span class="slogen">NOTHING CAN STAND
+                                IN YOUR WAY!</span>
+                        </p>
+
+                        <p class="card-text">
+                            Writing a dissertation proposal can be tougher than it looks but only for
+                            those who lack expertise. While dissertationproposal covers a panel of
+                            diligent dissertation proposal specialist performing 100% to a single
+                            proposal at a time for scrumptious quality.
+                        </p>
+
+                        <p class="card-text">
+                            Relating each aspect and depth of a dissertation proposal with multiple
+                            strategies for flaunting the value which stands out for us!
+                        </p>
+
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card border-0">
+                    <div class="card-body">
+                        <img src="./Assests/livechat.webp.png" alt="live_img" class="card-img-top" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-4 g-4 b">
+            <div class="col">
+                <div class="card card_border">
+                    <img src="./Assests/Link.png" class="card-img-top image_top my-2" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center slogen">Dissertation Heads</h5>
+                        <p class="card-text text-center slogen">+21</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card_border">
+                    <img src="./Assests/SVG.png" class="card-img-top image_top my-2" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center slogen">Proposal Experts</h5>
+                        <p class="card-text text-center slogen">+86</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card_border">
+                    <img src="./Assests/SVG (1).png" class="card-img-top image_top my-2" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center slogen">Satisfied Students</h5>
+                        <p class="card-text text-center slogen">99.9%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card_border">
+                    <img src="./Assests/SVG (1).png" class="card-img-top image_top my-2" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center slogen">Student Support</h5>
+                        <p class="card-text text-center slogen">+5000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Dissertation section -->
+
+    <!-- Reviews -->
+    <div class="container-fluid my-5 bg-color">
+
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-sm-6 mb-3 mb-sm-0">
+                    <div class="card rounded-0  border-0 bg-color">
+                        <div class="card-body">
+                            <h5 class="card-title text-white slogen">Sneak Peek On Our
+                                Students Reviews</h5>
+                            <p class="card-text text-white heading">
+                                Do you know what makes our best dissertation
+                                proposal service a stand out? The humble
+                                feedback of our potential customers on their
+                                journey with us!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card rounded-0  border-0 bg-color">
+                        <div class="card-body">
+                            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <h3 class="card-title text-white heading">Fredrick Palmer</h3>
+                                                <h5 class="card-title text-white heading">Coventry, UK</h5>
+                                                <p class="card-text text-white slogen">How stressing it got for me
+                                                    realizing that my
+                                                    dissertation can be rejected if my proposal is not perfect. Thank
+                                                    you! For helping me
+                                                    with my dissertation proposal..</p>
+                                            </div>
+                                            <div class="col-6">
+                                                <h3 class="card-title text-white heading">Fredrick Palmer</h3>
+                                                <h5 class="card-title text-white heading">Coventry, UK</h5>
+                                                <p class="card-text text-white slogen">How stressing it got for me
+                                                    realizing that my
+                                                    dissertation can be rejected if my proposal is not perfect. Thank
+                                                    you! For helping me
+                                                    with my dissertation proposal..</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Add more carousel items here as needed -->
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Reviews -->
+
+
+    <!-- Dissertation service -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card border-0  rounded-0">
+                    <div class="card-body">
+                        <h3 class="card-title heading ">Best Dissertation Proposal Service at Your Doorstep!</h3>
+                        <div class="line2"></div>
+                        <p class="card-text">Do you know why our best dissertation proposal service is favourite among
+                            all?</p>
+                        <p class="card-text">There is a long checklist of our astounding services which parts us from
+                            our competitors and
+                            eventually makes us more suitable. We offer a wide variety of blessings on the academic
+                            level.</p>
+
+                        <ul class="list-unstyled">
+                            <div class="d-flex">
+                                <i class="bi bi-check-lg text-info"></i>
+                                <li class="heading mx-2">Scrumptious Quality</li>
+                            </div>
+                            <div class="d-flex">
+                                <i class="bi bi-check-lg text-info"></i>
+                                <li class="heading mx-2">Free Dissertation Proposal Outline</li>
+                            </div>
+                            <div class="d-flex">
+                                <i class="bi bi-check-lg text-info"></i>
+                                <li class="heading mx-2">Timely Dissertation Completion</li>
+                            </div>
+
+                            <div class="d-flex">
+                                <i class="bi bi-check-lg text-info"></i>
+                                <li class="heading mx-2">24/7 Online Consultation</li>
+                            </div>
+
+                            <div class="d-flex">
+                                <i class="bi bi-check-lg text-info"></i>
+                                <li class="heading mx-2">Plagiarism Free Work</li>
+                            </div>
+
+                            <div class="d-flex">
+                                <i class="bi bi-check-lg text-info"></i>
+                                <li class="heading mx-2">Data Confidentiality</li>
+                            </div>
+
+                            <div class="d-flex">
+                                <i class="bi bi-check-lg text-info"></i>
+                                <li class="heading mx-2">100% Original Content</li>
+                            </div>
+
+                            <div class="d-flex">
+                                <i class="bi bi-check-lg text-info"></i>
+                                <li class="heading mx-2">UK PhD Qualified Writers</li>
+                            </div>
+
+                            <div class="d-flex">
+                                <i class="bi bi-check-lg text-info"></i>
+                                <li class="heading mx-2">Certified Editors & Proofreaders</li>
+                            </div>
+
+                            <div class="d-flex">
+                                <i class="bi bi-check-lg text-info"></i>
+                                <li class="heading mx-2">Prompt Delivery</li>
+
+                            </div>
+
+                        </ul>
+
+                        <p class="card-text">Not Enough?</p>
+                        <p class="card-text">No worries! We got more to cover and work especially for:</p>
+
+                        <ul class="list-unstyled">
+                            <div class="d-flex">
+                                <i class="bi bi-check-lg text-info"></i>
+                                <li class="heading mx-2">Your urgent orders</li>
+
+
+                            </div>
+
+                            <div class="d-flex">
+                                <i class="bi bi-check-lg text-info"></i>
+                                <li class="heading mx-2">Quick delivery needs</li>
+
+
+                            </div>
+
+                            <div class="d-flex">
+                                <i class="bi bi-check-lg text-info"></i>
+                                <li class="heading mx-2">Quick delivery needs</li>
+
+
+                            </div>
+
+                        </ul>
+                        <p class="card-text">All customization and specialties that make your dissertation phenomenal is
+                            done by our end
+                            expertly.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card border-0 rounded-0 mx-5  ">
+                    <div class="card-body">
+                        <div class="best_price">
+                            <h4 class="card-title text-white p-3 slogen ">The Best Price Offers
+                                You've Seen</h4>
+                            <!-- <hr /> -->
+
+                            <div class=' tips d-flex mx-2'>
+                                <img src="Assests/symbl.png" class="image_side" alt="icon_img">
+                                <p class="card-text text-white slogen mx-3">Dissertation Proposal For:
+                                    <br />
+                                    <span> <s class="text-dark">£32.14 </s>£16.07</span>
+                                </p>
+                            </div>
+
+                            <div class=' tips d-flex mx-2'>
+                                <img src="Assests/symbl.png" class="image_side" alt="icon_img">
+                                <p class="card-text text-white slogen mx-3">Dissertation Service For:
+                                    <br />
+                                    <span> <s class="text-dark">£32.14 </s>£16.07</span>
+                                </p>
+                            </div>
+
+
+                            <div class=' tips d-flex mx-2'>
+                                <img src="Assests/symbl.png" class="image_side" alt="icon_img">
+                                <p class="card-text text-white slogen mx-3">Dissertation Editing For:
+                                    <br />
+                                    <span> <s class="text-dark">£32.14 </s>£16.07</span>
+                                </p>
+                            </div>
+
+
+                            <div class=' tips d-flex mx-2'>
+                                <img src="Assests/symbl.png" class="image_side" alt="icon_img">
+                                <p class="card-text text-white slogen mx-3">Dissertation Help For:
+                                    <br />
+                                    <span> <s class="text-dark">£32.14 </s>£16.07</span>
+                                </p>
+                            </div>
+
+                            <div class=' d-flex my-3'>
+                                <h6 class="card-text text-white slogen mx-3">Security & Payments</h6>
+
+                            </div>
+
+                            <div class=' d-flex my-3'>
+                                <div class=" mx-3">
+                                    <img src="Assests/link1 (1).png" alt="icon_img" class="image_btn">
+                                </div>
+                                <div class=" mx-3">
+                                    <img src="Assests/link1 (2).png" alt="icon_img" class="image_btn">
+                                </div>
+
+                            </div>
+                            <div class=' d-flex'>
+                                <p class="card-text text-white slogen mx-3">Dissertation Proposal always prioritizes the
+                                    safety and security of their client’s data and
+                                    payments by generating the safest payment
+                                    methods and guaranteed data confidentiality.</p>
+
+                            </div>
+
+                            <div class=' d-flex p-5'>
+                                <img src="Assests/cd.png" alt="icon_img" class="image_btn">
+
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Dissertation service -->
+
+
+
+    <!-- Order Dissertation -->
+
+    <div class="container-fluid">
+        <div class="bg-color">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class=" border-0  rounded-0 p-3">
+                            <div class="card-body">
+                                <h5 class="card-title text-white heading">Enjoy the Variety </h5>
+
+                                <h5 class="card-title text-white heading my-2"> of
+                                    Our Writers and Their Command on
+                                </h5>
+
+                                <h5 class="card-title text-white heading">
+                                    Dissertation Subjects</h5>
+
+                                <p class="card-text text-white my-3 slogen">You don’t have to worry about your subject
+                                    matter
+                                    because we got it all covered for you. We have writers
+                                    from multiple areas of courses and subjects from all
+                                    around the world.</p>
+
+                                <ul style="list-style-type: none;">
+                                    <li class="text-white ">variety of courses</li>
+                                    <li class="text-white">variety of professional writers</li>
+                                    <li class="text-white">variety of certified editors</li>
+
+                                </ul>
+
+                                <a href="#" class="btn btn-light text-dark">Go somewhere</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class=" border-0  rounded-0">
+                            <div class="card-body my-5">
+                                <div class="d-flex justify-content-around my-5">
+                                    <div class='d-flex justify-content-around'>
+                                        <i class="bi bi-hammer hammerIcon"></i>
+                                        <p class="card-text text-white mx-3">Law dissertation</p>
+
+                                    </div>
+
+                                    <div class='d-flex justify-content-around'>
+                                        <i class="bi bi-currency-dollar text-white"></i>
+                                        <p class="card-text text-white mx-3">Marketing dissertation</p>
+
+                                    </div>
+
+                                    <div class='d-flex justify-content-around'>
+                                        <i class="bi bi-bezier text-white"></i>
+                                        <p class="card-text text-white mx-3">Psychology dissertation</p>
+
+                                    </div>
+
+
+                                </div>
+
+
+
+                                <div class="d-flex justify-content-around my-5">
+                                    <div class='d-flex justify-content-around'>
+                                        <i class="bi bi-gear-wide-connected text-white"></i>
+                                        <p class="card-text text-white mx-3">Nursing dissertation</p>
+
+                                    </div>
+
+                                    <div class='d-flex justify-content-around'>
+                                        <i class="bi bi-node-plus-fill text-white"></i>
+                                        <p class="card-text text-white mx-3">Supply Chain dissertation</p>
+
+                                    </div>
+
+                                    <div class='d-flex justify-content-around'>
+                                        <i class="bi bi-laptop text-white"></i>
+                                        <p class="card-text text-white mx-3">Finance dissertation</p>
+
+                                    </div>
+                                </div>
+
+                                <div class="d-flex justify-content-around my-5">
+                                    <div class='d-flex justify-content-around'>
+                                        <i class="bi bi-inboxes text-white"></i>
+                                        <p class="card-text text-white mx-3">Economics dissertation</p>
+
+                                    </div>
+
+                                    <div class='d-flex justify-content-around'>
+                                        <i class="bi bi-border-all text-white"></i>
+                                        <p class="card-text text-white mx-3">Accounting dissertation</p>
+
+                                    </div>
+
+                                    <div class='d-flex justify-content-around'>
+                                        <i class="bi bi-bounding-box-circles text-white"></i>
+                                        <p class="card-text text-white mx-3">Sociology dissertation</p>
+
+                                    </div>
+                                </div>
+
+                                <div class="d-flex justify-content-around my-5">
+                                    <div class='d-flex justify-content-around'>
+                                        <i class="bi bi-arrow-clockwise text-white"></i>
+                                        <p class="card-text text-white mx-3">Finance dissertation</p>
+
+                                    </div>
+
+                                    <div class='d-flex justify-content-around'>
+                                        <i class="bi bi-briefcase-fill text-white"></i>
+                                        <p class="card-text text-white mx-3">Business Management
+                                            dissertation</p>
+
+                                    </div>
+
+                                    <div class='d-flex justify-content-around'>
+                                        <i class="bi bi-briefcase-fill text-white"></i>
+                                        <p class="card-text text-white mx-3">English Literature
+                                            dissertation</p>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Order Dissertation -->
+
+
+    <!-- Dissertation Proposal -->
+
+    <div class="container-fluid bg-light p-5">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 mb-3 mb-sm-0">
+                    <div class=" border-0  rounded-0">
+                        <div class="card-body">
+                            <h3 class="card-title heading">Dissertation Proposal Samples Are Right
+                                Here!</h3>
+                            <p class="card-text my-3">All you need to know is under dissertation proposal samples to get
+                                the clear picture of a smashing
+                                dissertation proposal.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="  border-0  rounded-0 mx-5 ">
+                        <div class="card-body ">
+                            <a href="#" class="btn btn-info text-white">Order Dissertation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-sm-6 mb-3 mb-sm-0">
+                    <div class=" border-0  rounded-0 ">
+                        <div class="card-body">
+                            <h3 class="card-title heading">GUARANTEED Features</h3>
+                            <div class="line2"></div>
+                            <div class="card-img-top my-4">
+                                <img src="/Assests/top_img.png" class="image_topp" alt="image_top" />
+                            </div>
+                            <p class="card-text my-3">You may be able to:</p>
+
+                            <div class="tabs ">
+                                <i class="bi bi-check-circle-fill text-info"></i>
+                                <p class="card-title text-dark mx-3 ">Bibliography</p>
+                            </div>
+                            <div class="tabs">
+                                <i class="bi bi-check-circle-fill text-info"></i>
+                                <p class="card-title text-dark mx-3">Review the structure</p>
+                            </div>
+                            <div class="tabs">
+                                <i class="bi bi-check-circle-fill text-info"></i>
+                                <p class="card-title text-dark mx-3">Outline</p>
+                            </div>
+                            <div class="tabs">
+                                <i class="bi bi-check-circle-fill text-info"></i>
+                                <p class="card-title text-dark mx-3">Title page</p>
+                            </div>
+                            <div class="tabs">
+                                <i class="bi bi-check-circle-fill text-info"></i>
+                                <p class="card-title text-dark mx-3">Formatting</p>
+                            </div>
+                            <div class="tabs">
+                                <i class="bi bi-check-circle-fill text-info"></i>
+                                <p class="card-title text-dark mx-3">Plagiarism Report</p>
+                            </div>
+
+                            <a href="#" class="btn btn-info text-white my-5">Order Dissertation</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="  border-0  rounded-0 mx-3">
+                        <div class="card-body">
+                            <h3 class="card-title heading">Our Samples</h3>
+                            <div class="line2"></div>
+
+                            <div class="card mb-3 border-0 rounded-0 p-3 my-5" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="Assests/book.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title heading">IT Strategic Planning</h5>
+                                            <span class="card-title">#Term Paper</span>
+                                            <p class="card-text my-2">Number of page 4</p>
+                                            <p class="card-text my-2">Urgency 3 days</p>
+                                            <p class="card-text my-2">Academic</p>
+                                            <p class="card-text my-3">level <b>Master’s</b> </p>
+
+                                            <button type="button" class="btn btn-info btn_paper">Order paper like this
+                                                for only £8.47</button>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3 border-0 rounded-0 p-3 my-5" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="Assests/book.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title heading">IT Strategic Planning</h5>
+                                            <span class="card-title">#Term Paper</span>
+                                            <p class="card-text my-2">Number of page 4</p>
+                                            <p class="card-text my-2">Urgency 3 days</p>
+                                            <p class="card-text my-2">Academic</p>
+                                            <p class="card-text my-3">level <b>Master’s</b> </p>
+
+                                            <button type="button" class="btn btn-info btn_paper">Order paper like this
+                                                for only £8.47</button>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dissertation Proposal -->
+
+
+
+    <!-- Get To Know Our Dissertation Proposal Writers! -->
+
+    <div class="container-fluid my-5">
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-sm-6 mb-3 mb-sm-0">
+                    <div class="card  border-0  rounded-0 ">
+                        <div class="card-body">
+                            <h5 class="card-title text-info heading">Get To Know Our Dissertation Proposal Writers!</h5>
+                            <p class="card-text text-info heading">Carefully gathered from UK’s top universities, the
+                                panel of our
+                                diligent writers are chosen on
+                                four strict bases:</p>
+
+                            <ul class="list-unstyled">
+                                <li class="text-info">+8 years of experience</li>
+                                <li class="text-info">Minimum master’s qualification</li>
+                                <li class="text-info">Skilled in the specific field</li>
+                                <li class="text-info">Skilled in the specific field</li>
+                            </ul>
+
+                            <p class="text-info"><i>‘Every problem can be solved’
+                                    With amazing correction skills, Dr. Felix is known for his exceptional editing and
+                                    proofreading skills worldwide. His PhD degree from Manchester University in
+                                    Psychology helped him build his editing skills on a large scale. He has been
+                                    certified as an expert proofreader and is gifted with an eagle’s eye.
+                                    Skilled in editing and proofreading academic papers and research projects have led
+                                    him towards professional dissertation editing alongside:</i></p>
+
+                            <p class="text-info mx-3"><i>UK Certified Editor
+                                    Dissertation Editing Proofreading
+                                    PhD Dissertation Editing Proofreading
+                                    Dr. Felix has entertained more than 347 PhD and master level dissertations by
+                                    making it spotless and free of any errors.</i></p>
+
+                            <p class="text-info mx-3 slogen">
+                                Dr. Felix Swarovski
+                            </p>
+
+                            <p class="text-secondary mx-3 slogen">
+                                Dissertation Editor & Proofreader
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-6">
+                    <div class="card  border-0  rounded-0">
+                        <div class="card-body mx-5">
+                            <div class=" form_div">
+                                <div class="form_child">
+                                    <div class="offer-div">
+                                        <p class="text-dark text-center heading"
+                                            style="font-size: 24px; font-weight: 700;">50% OFF</p>
+                                        <p class="text-white text-center my-2">Place Your Order</p>
+                                        <p class="text-white text-center ">with Confidence</p>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="my-2 p-2">
+                                    <div class="row g-1">
+                                        <div class="col">
+                                            <!-- Name input -->
+                                            <div data-mdb-input-init class="form-outline">
+                                                <input type="text" placeholder="Enter Full Name" id="form9Example1"
+                                                    class="form-control" />
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <!-- Email input -->
+                                            <div data-mdb-input-init class="form-outline">
+                                                <input type="email" placeholder="Enter Email Address" id="form9Example2"
+                                                    class="form-control" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="my-2 p-2">
+                                    <div class="row g-1">
+                                        <div class="col">
+                                            <!-- Name input -->
+                                            <div data-mdb-input-init class="form-outline">
+                                                <input type="text" placeholder="Enter Full Name" id="form9Example1"
+                                                    class="form-control" />
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <!-- Email input -->
+                                            <div data-mdb-input-init class="form-outline">
+                                                <input type="email" placeholder="Enter Email Address" id="form9Example2"
+                                                    class="form-control" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Get To Know Our Dissertation Proposal Writers! -->
+
+ <!-- Card started -->
+ <div class="row">
+    <div class="col-sm-6 mb-3 mb-sm-0">
+      <div class="card">
+        <div class="card-body">
+            <!-- Paragraph with heading started -->
+        <div class="container-fluid my 6">
+            <div class="container my-6">
+            <P>
+                <h3>Cheap Dissertation Proposal Writing Service
+                Tailored For Your Needs!
+            </P></h3>
+            </div>
+        </div>
+        <div class="container-fluid my 6">
+        <div class="container my-6">
+        <P>We know you are looking for a cheap dissertation proposal writing service in the UK! But scared if
+            it will meet your dissertation criteria or not. </P>
+           <p> Worry no more! As we are here to eliminate all your misconceptions and fears.  With years of
+serving students and researchers with astounding dissertation proposal UK standard, we are
+known as the best dissertation proposal help in UK.</p>
+        </div>
+    </div>
+
+    <!-- paragraph ended -->
+
+    <!-- new para with heading -->
+    <div class="container-fluid my 6">
+        <div class="container my-6">
+            <h3>Hire Best Dissertation Proposal Writers And Compromise
+                Nothing
+        </h3>
+        </div>
+    </div>
+
+    <!-- list items -->
+    <div class="container-fluid my 6">
+        <div class="container my-6">
+        <P>Don’t risk your dissertation over unreliable sources and only hire the best dissertation
+            proposal writers today! </P>
+           <p> The three major components that make a dissertation proposal reliable are:</p>
+           <ul class="list-group">
+            <li class="list-group-item">PhD qualified dissertation writers</li>
+            <li class="list-group-item">The UK certified editors & proof-readers</li>
+            <li class="list-group-item">Standardized quality assurance</li>
+               </ul>
+          <p>These are one of our promising offers that stand out.</p>
+        </div>
+    </div>
+    
+    <!-- list items ended-->
+
+    <!-- heading Started -->
+    <div class="container-fluid my 6">
+        <div class="container my-6">
+            <h3>How Writing The Dissertation Proposal Is Stress-Free?
+        </h3>
+        <b><p>By letting the professionals handle the job for you!</p></b>
+        </div>
+    </div>
+    <!-- heading ended -->
+
+    <div class="container-fluid my 6">
+        <div class="container my-6">
+        <P>It is very easy and convenient from so many ends. You may let our help with research proposal
+            experts who work on your dissertation proposal and enjoy the free-time. However,  will also work- out for you in affordable dissertation proposal help by </P>
+
+            <div class="container-fluid my 6">
+                <div class="container my-6">
+                <P>
+                    <h3>Can You Write My Dissertation Proposal?
+                </P></h3>
+                <p>We have an excellent team of dissertation professionals. They are fluent in writing, editing and
+                    even proofreading your dissertation proposal and provide you help with research proposal in no
+                    time. So, our top UK thesis proposal writers will solve all your dissertation hurdles. With our help
+                    writing a dissertation proposal will be as easy as pie.</p>
+            <h3>Professional Dissertation Proposal Help Is All You Need</h3>
+            <p>The dissertation prices for professional dissertation proposal help is economical just like you
+                wanted. It has been made simple for your help. Now, getting a professional dissertation proposal
+                help is easy and beneficial.</p>
+                <h3>Buy Cheap Dissertation Proposal Writing Service To Get It
+                    Done On-Time</h3>
+                    <p>You can buy your university dissertation proposal in the shortest time frame by buying our
+                        Dissertation Proposal Writing Service.</p>
+                        <h
+            </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+        
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+
+
+</html>

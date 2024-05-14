@@ -1,0 +1,203 @@
+
+.heading{
+
+     font-family: 'Roboto';
+     font-weight: 400;
+
+}
+
+.card_border{
+
+
+        border: solid 1px #6EC1E4;
+}
+
+
+
+
+.DT{
+   
+     font-size: 28px;
+     font-weight: 700;
+     font-family: 'Roboto';
+}
+
+
+.image_top{
+
+        width: 15%;
+        height: 15%;
+        margin: 0 auto;
+}
+
+.mainDic{
+
+     width: 500px;
+     height: 230px;
+     background-color: black;
+     margin: auto;
+     border-radius: 20px;
+}
+
+.dicchild{
+
+     width: 500px;
+     height: 90px;
+     background-color: #6EC1E4;
+    
+}
+
+.offer-div{
+
+       width: 150px;
+       height: 50px;
+       background-color: #fff;
+       margin: 0 auto;
+       border-radius: 0px 0px 10px 10px;
+}
+
+
+.btnnn{
+
+       width: 80%;
+       justify-content: center;
+       background-color: #fff;
+       color: #000;
+       border: none;
+}
+
+
+.slogen{
+
+     font-family: 'Roboto';
+     font-weight: 500;
+}
+
+
+.line{
+
+       width: 100px;
+       height: 6px;
+       background-color: #6EC1E4;
+       margin: 0 auto;
+       margin-top: 20px;
+       border-radius: 10px;
+}
+
+
+.line2{
+
+     width: 100px;
+     height: 4px;
+     background-color: #6EC1E4;
+     border-radius: 10px;
+}
+
+.bg{
+
+     background-color: rgb(241, 241, 241);
+}
+
+.bg-color{
+
+       background-color: #6EC1E4;
+       padding: 20px;
+}
+
+.best_price{
+
+      width: 300px;
+      height: 800px;
+      background-color: #6EC1E4;
+      border-radius: 10px 10px 0px 0px;
+
+}
+
+.hammerIcon{
+
+      transform: rotate(100deg);
+       color: white;
+}
+
+
+.line3{
+
+     width: 200px;
+     height: 4px;
+     background-color: #ffffff;
+     margin-top: 20px;
+     border-radius: 10px;
+}
+
+.image_topp{
+
+       width: 200px;
+       height: 100px;
+       background-size: cover;
+}
+
+.tabs_main{
+
+     justify-content: center;
+     align-items: center;
+}
+
+.tabs{
+
+      width: 50%;
+      height: 60px;
+      border-bottom: 1px solid #6d6d6d;
+      display: flex;
+      padding: 10px;  
+      
+}
+
+.btn_paper{
+
+       width: 100%;
+       color: #fff;
+}
+
+
+.form_div{
+
+       width: 350px;
+       height: 400px;
+       background-color: #fff;
+       border: solid 2px #6EC1E4;
+}
+
+
+.form_child{
+
+     width: auto;
+     height: 120px;
+     background-color: #6EC1E4;
+}
+
+
+.image_side{
+
+     width: 15%;
+     height: 15%;
+}
+
+.tips{
+     
+     width: auto;
+     border-bottom: 1px solid #ffffff;
+      padding: 10px; 
+     
+}
+
+.image_btn{
+
+     
+     width: 100%;
+    
+}
+
+
+.card-body{
+     border: 0px;
+}
